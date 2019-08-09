@@ -1,0 +1,31 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+nav {
+  margin: 0px;
+}
+
+.navbar {
+  padding: 20px;
+}
+
+.navbar-brand, .nav-link {
+  padding: 5px;
+  margin: 5px;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
+.navbar-brand {
+  color: #12b9bf !important;
+  background-color: black;
+  border: 1px solid #12b9bf !important;
+}
+
+.nav-link {
+  background-color: black;
+  color: #12b9bf !important;
+}

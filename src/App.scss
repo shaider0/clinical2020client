@@ -1,0 +1,154 @@
+$charcoal: #ccc;
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#root, body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.home {
+  background-size: cover;
+  width: 100vw;
+  height: 80vh;
+}
+
+input {
+  display: block;
+}
+
+button, a {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #257994;
+  color: white;
+  padding: 7px;
+  border-radius: 4px;
+  display: block;
+  text-align: center;
+}
+
+button {
+  display: block
+}
+
+.patient-listing a {
+  background: none;
+  color: #03777c;
+  border-radius: 0px;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+nav {
+  margin: 20px 10px;
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  background: url('https://images.unsplash.com/photo-1495639867387-5423d6811583?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80');
+  background-size: cover;
+  background-position: center center;
+}
+
+body {
+  background-color: black;
+}
+
+#root {
+  background-color: #e9e9ea;
+  min-height: 90vh;
+}
+
+.projectName {
+  color: #12b9bf;
+}
+
+.user-email {
+  color: #12b9bf;
+  font-size: 10px;
+}
+
+.footer {
+  font-size: 14px;
+  color: #666666;
+  background-color: transparent;
+  border: none;
+  text-align: right;
+  position: absolute;
+  bottom: 1px;
+  left: 83vw;
+}
+
+.physical-units {
+  font-size: 12px;
+}
+
+.about {
+  padding: 30px;
+}
+
+.plus {
+  font-size: 28px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 40px;
+  padding: 0px;
+}
+
+.layout {
+  width: 600px;
+  margin: 20px auto 0 auto;
+  padding: 25px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.backButton {
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .layout {
+    width: 95vw;
+    margin: 0 auto;
+  }
+  .layout * {
+    display: block;
+  }
+  .footer {
+    position: sticky;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+.formButton {
+  display: block;
+  width: 100%;
+}
+
+.alert {
+  font-size: 20px;
+  margin: 0;
+  padding: 10px;
+}
+
+.bold {
+  font-weight: 700;
+}

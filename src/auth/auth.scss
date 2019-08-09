@@ -1,0 +1,21 @@
+.auth-form {
+  margin: 40px auto 0 auto;
+  width: 600px;
+}
+
+.auth-form label, .auth-form input {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .auth-form {
+    margin-top: 40px;
+    width: 90vw;
+  }
+  .auth-form label, .auth-form input {
+    width: 90vw;
+    margin-left: 0;
+    padding-left: 0
+  }
+}

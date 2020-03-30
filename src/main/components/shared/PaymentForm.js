@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 const PaymentForm = ({ cancelPath, payment, handleSubmit, handleChange, completedFields }) => (
 
   <form onSubmit={handleSubmit}>
+    <h5>Generate Invoice</h5>
     <label>Date</label>
     <input
       name="date"

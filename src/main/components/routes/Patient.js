@@ -64,7 +64,6 @@ class Patient extends Component {
 
     return (
       <Layout>
-        <h3>Patient Info</h3>
         <p><b>Patient{'\''}s Study ID: </b>{patient.studyId || 'unknown'}</p>
         <p><b>Site Number: </b>{patient.site || 'Unknown'}</p>
         <p><b>Date of Birth: </b>{patient.birthDate || 'Unknown'}</p>
@@ -75,7 +74,7 @@ class Patient extends Component {
         <Link to='/patients' className="formButton">Back to all patients</Link>
         <br />
         <br />
-        <h3>Assessments For This Patient</h3>
+        <h5 className="text-center">Assessment Types</h5>
         <Link className = "formButton" to={{
           pathname: `/patients/${patient._id}/physicals`,
           state: {

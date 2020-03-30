@@ -4,16 +4,14 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+  background: url('./images/lab.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 90vh;
 }
 
 #root, body {
   font-family: 'Open Sans', sans-serif;
-}
-
-.home {
-  background-size: cover;
-  width: 100vw;
-  height: 80vh;
 }
 
 input {
@@ -56,20 +54,12 @@ ul {
   padding: 0;
 }
 
-.home {
-  background: url('https://images.unsplash.com/photo-1495639867387-5423d6811583?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80');
-  background-size: cover;
-  background-position: center center;
-}
-
-body {
-  background-color: black;
-}
-
-#root {
-  background-color: #e9e9ea;
-  min-height: 90vh;
-}
+// .home {
+//   background: url('./images/lab.jpg');
+//   background-size: cover;
+//   background-position: center center;
+//   height: 90vh;
+// }
 
 .projectName {
   color: #12b9bf;
@@ -97,6 +87,8 @@ body {
 
 .about {
   padding: 30px;
+  color: white;
+  background-color: rgba(10, 10, 10, 0.8)
 }
 
 .plus {
@@ -151,4 +143,10 @@ body {
 
 .bold {
   font-weight: 700;
+}
+
+.auth-form {
+  background-color: rgba(243, 243, 243, 0.95);
+  padding: 15px;
+  border-radius: 10px;
 }

@@ -41,7 +41,6 @@ class SignUp extends Component {
 
     return (
       <form className='auth-form' onSubmit={this.onSignUp}>
-        <p style={{ border: '2px solid #cdcdcd', padding: '9px', borderRadius: '5px' }}><strong>Note:</strong> This is an early prototype. Please use a fake email address and password to sign up.</p>
         <h3>Sign Up</h3>
 
         <label htmlFor="email">Email</label>

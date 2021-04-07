@@ -1,7 +1,7 @@
 Back-End Repo: https://github.com/shaider0/clinical2020api
-Deployed Back End: https://clinical2020.herokuapp.com/
+Deployed Back End: https://clinical2020app.herokuapp.com/
 
-Clinical2020 is a case report form system that allows organizations involved in conducting clinical research to store clinical data collected from patients who participate in their studies.
+Clinical2020 is a case report form system (for demo purposes only) that allows organizations involved in conducting clinical research to store clinical data collected from patients who participate in their studies.
 
 # Technologies Used
 

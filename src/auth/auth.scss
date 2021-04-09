@@ -11,11 +11,9 @@
 @media (max-width: 600px) {
   .auth-form {
     margin-top: 40px;
-    width: 90vw;
+    width: 95%;
   }
   .auth-form label, .auth-form input {
-    width: 90vw;
-    margin-left: 0;
-    padding-left: 0
+    width: 98%;
   }
 }
